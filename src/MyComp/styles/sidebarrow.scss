@@ -1,0 +1,45 @@
+.sidebarrow {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+
+    &.selected {
+        .link {
+            color: red;
+            .icon{
+                color: red;
+            }
+        }
+    }
+
+    .link {
+        display: flex;
+        align-items: center;
+
+        .icon {
+            color: #333;
+            font-size: large;
+        }
+        .title {
+            flex: 1;
+            margin-left: 20px;
+            font-size: 20px;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+    }
+}
+.sidebarrow:hover {
+    background: grey;
+    cursor: pointer;
+
+    .link {
+        font-size: larger;
+        .icon {
+            color: red;
+        }
+        .title {
+            font-weight: bold;
+        }
+    }
+}

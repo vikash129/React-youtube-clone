@@ -1,0 +1,15 @@
+.recommend{
+    margin: 5px 26px;
+    margin-top: 9px ;
+
+   
+
+   .videoList{
+    margin: 20px 0px;
+    display: grid;
+   row-gap: 2rem;
+   column-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(230px, 1fr));
+   }
+}

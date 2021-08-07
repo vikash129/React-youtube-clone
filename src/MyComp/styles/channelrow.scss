@@ -1,0 +1,46 @@
+.channelRow {
+    display: flex;
+    margin: 7px 5px;
+    padding: 4px;
+    align-items: center;
+
+    .logo {
+        width: 120px;
+        height: 120px;
+        border: 2px solid red;
+        margin: 10px 60px;
+    }
+
+    .text {
+
+        p {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+            color: rgb(13, 13, 14);
+            font-weight: 500;
+            font-size: small;
+            margin: 4px 0;
+
+            span{
+                margin-right: 20px;
+            }
+        }
+        span.channel {
+          
+            display: flex;
+            text-transform: capitalize;
+            justify-content: space-between;
+            align-items: center;
+       
+                a{
+                    text-decoration: none;
+                    color: red;
+                    font-weight: 400;
+                    font-size: 26px;
+                    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+                        sans-serif;
+                }
+        }
+    }
+}

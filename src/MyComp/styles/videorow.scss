@@ -1,0 +1,83 @@
+.videoRow {
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin: 40px 0;
+
+    background: #0d0c0c;
+    color: #efeeec;
+    align-items: center;
+    border-radius: 5px;
+
+    .thumbnail {
+        display: flex;
+        align-items: center;
+
+        img {
+            height: 166px;
+            object-fit: cover;
+            background-size: cover;
+            padding-left: 1px;
+        }
+        .playIcon {
+            z-index: 3;
+            position: absolute;
+            transform: translateX(400%);
+            cursor: pointer;
+        }
+    }
+    .text {
+        margin: 10px;
+        padding: 6px;
+
+        .title{
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+
+        .channel {
+            display: flex;
+            border: brown;
+
+            .avatar {
+                height: 30px !important;
+                width: 30px !important;
+                margin: 0 7px;
+                border: 2px solid green;
+            }
+            span{
+                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+                font-size: 20px;
+                text-transform: capitalize;
+            }
+        }
+
+        .info {
+            display: flex;
+            align-items: center;
+            margin: 7px 0;
+
+            span {
+                padding-right: 15px;
+            }
+            .subs{
+                color : red
+            }
+            .views{
+                color : blue ;
+            }
+            .timeStamp{
+                color: greenyellow;
+            }
+            .length{
+                color : orange
+            }
+        }
+        .disc {
+            font-size: 15px;
+            color: grey;
+        }
+    }
+}

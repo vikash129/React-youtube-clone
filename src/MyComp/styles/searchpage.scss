@@ -1,0 +1,19 @@
+.searchPage{
+    margin: 15px 5px;
+    margin-left: 3%;
+    
+    .filter{
+        display: flex;
+        align-items: center;
+
+        h4{
+padding-left: 4px;
+        }
+    }
+    hr{
+        margin: 10px 0;
+        height: 1px;
+        color: brown;
+    }
+    
+}
